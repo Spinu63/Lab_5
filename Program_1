@@ -1,0 +1,88 @@
+using System;
+
+namespace Lab_5
+{
+    class Program
+    {
+        class A
+        {
+            public string a = "Numele :";
+        }
+
+        class B : A
+        {
+            public string b = "Petru";
+        }
+
+        class C : B
+        {
+            public string c = "Iacob";
+        }
+        
+        class D : C
+        {
+            public string d = "Veronica";
+        }
+
+        class E : D
+        {
+            public string e = "Karina";
+        }
+
+        class F : E
+        {
+            public string f = "Richard";
+        }
+        
+        class G : F
+        {
+            public string g = "Silvia";
+        }
+
+        class H : G
+        {
+            public string h = "Nicolaie";
+        }
+        
+        class I : H
+        {
+            public string i = "Victor";
+        }
+
+        class L : I
+        {
+            public string l = "Rebeca";
+        }
+
+        class J : L
+        {
+            public string j = "Ruby";
+        }
+        
+        static void Main(string[] args)
+        {
+            B per1 = new B();
+            C per2 = new C();
+            D per3 = new D();
+            E per4 = new E();
+            F per5 = new F();
+            G per6 = new G();
+            H per7 = new H();
+            I per8 = new I();
+            L per9 = new L();
+            J per10 = new J();
+            
+            
+            Console.WriteLine(per1.a + " " + per1.b);
+            Console.WriteLine(per2.a + " " + per2.c);
+            Console.WriteLine(per3.a + " " + per3.d);
+            Console.WriteLine(per4.a + " " + per4.e);
+            Console.WriteLine(per5.a + " " + per5.f);
+            Console.WriteLine(per6.a + " " + per6.g);
+            Console.WriteLine(per7.a + " " + per7.h);
+            Console.WriteLine(per8.a + " " + per8.i);
+            Console.WriteLine(per9.a + " " + per9.l);
+            Console.WriteLine(per10.a + " " + per10.j);
+        }
+    }
+}
